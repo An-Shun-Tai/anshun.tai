@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "An-Shun Tai (戴安順)"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "An-Shun Tai (戴安順)"
 description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -25,8 +25,8 @@ author:
   name             : "An-Shun Tai (戴安順)"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Tainan, Taiwan"
+  employer         : "National Cheng Kung University"
   uri              : # URL
   email            : "none@example.org" 
 
