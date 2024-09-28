@@ -1,6 +1,6 @@
 ---
 title: "Survival mediation analysis with the death-truncated mediator: The completeness of the survival mediation parameter"
-excerpt: <img src='/images/research_work1.png'>
+excerpt: <img src='https://an-shun-tai.github.io/anshun.tai/images/research_work1.png'>
 collection: research
 ---
 
