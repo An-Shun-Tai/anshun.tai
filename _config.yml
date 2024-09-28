@@ -149,7 +149,7 @@ social:
 analytics:
   provider               :  "google-analytics" # false (default), "google", "google-universal", "google-analytics", "custom"
   google:
-    tracking_id          : G-JS45M3TEPV
+    tracking_id          : G-1PFVTV187X
 
 
 # Reading Files
