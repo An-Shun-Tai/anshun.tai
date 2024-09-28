@@ -11,10 +11,10 @@ redirect_from:
 
 <p>You can view or download my CV using the link below:</p>
 <ul>
-  <li><a href="https://drive.google.com/file/d/1QSCLxXgy5J3vojDGxeTe46yY9wc8TdPb/view" target="_blank">Download CV (PDF)</a></li>
+  <li><a href="https://an-shun-tai.github.io/anshun.tai/files/CV_AnShun.pdf" target="_blank">Download CV (PDF)</a></li>
 </ul>
 
 <h3>Preview of CV:</h3>
-<iframe src="https://drive.google.com/file/d/1QSCLxXgy5J3vojDGxeTe46yY9wc8TdPb/view" style="width: 100%; height: 600px;" frameborder="0"></iframe>
+<iframe src="https://an-shun-tai.github.io/anshun.tai/files/CV_AnShun.pdf" style="width: 100%; height: 600px;" frameborder="0"></iframe>
 
 
