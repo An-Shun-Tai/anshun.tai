@@ -14,6 +14,5 @@ We developed a **two-way mixture Poisson model**, named CloneDeMix, for the deco
 ### Availability and Implementation:
 The CloneDeMix R package is available at [https://github.com/AshTai/CloneDeMix](https://github.com/AshTai/CloneDeMix).
 
-
 ![Research Work](https://an-shun-tai.github.io/anshun.tai/images/research_work3.png)
 
