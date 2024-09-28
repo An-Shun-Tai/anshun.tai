@@ -19,16 +19,6 @@ I received my Ph.D. in Statistics at National Tsing Hua University in 2019. My c
 I would welcome any email for an academic discussion.
 email address: ashtai@gs.ncku.edu.tw
 
-Research Interests
-------
- * Biostatistics​​
- * Bioinformatics (Statistical Genomics)
- * Bayesian Inference (Bayesian variable selection)
- * Causal inference
- * Multiple mediation analysis
- * Mendelian Randomization
- * Robust estimation 
-
 Education
 ------
  * 2019, Ph.D. in Institute of Statistics, National Tsing-Hua University, Taiwan. (Advisor: Prof. Wen-Ping Hsieh) 
