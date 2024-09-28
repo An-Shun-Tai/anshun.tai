@@ -6,6 +6,8 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
+google_analytics: G-JS45M3TEPV
+
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "An-Shun Tai (戴安順)"
