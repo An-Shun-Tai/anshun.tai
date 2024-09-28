@@ -1,9 +1,6 @@
 ---
 title: "BayICE: A hierarchical Bayesian deconvolution model with stochastic search variable selection"
-excerpt: <div style="display: flex; justify-content: space-between;">
-            <img src='https://an-shun-tai.github.io/anshun.tai/images/research_work2-1.png' style="width: 48%; margin-right: 1%;">
-            <img src='https://an-shun-tai.github.io/anshun.tai/images/research_work2-2.png' style="width: 48%;">
-          </div>
+excerpt: <img src='https://an-shun-tai.github.io/anshun.tai/images/research_work2-1.png'>
 collection: research
 ---
 
