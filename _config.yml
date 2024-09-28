@@ -21,7 +21,7 @@ repository               : "anshun.tai/an-shun-tai.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "bio-photo.jpg"
   name             : "An-Shun Tai (戴安順)"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor at Department of Statistics"
@@ -31,19 +31,19 @@ author:
   email            : "ashtai@gs.ncku.edu.tw" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
+  #arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=JaK-7a0AAAAJ&hl=zh-TW&oi=sra"
-  impactstory      : # URL
+  #impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-2583-0188"
-  semantic         : # URL
+  #semantic         : # URL
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Tai+AS&cauthor_id=38081593"
-  researchgate     : # URL
+  #researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/AshTai"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
