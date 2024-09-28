@@ -3,10 +3,8 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
-
+test
 {% include base_path %}
 
 <h2>Curriculum Vitae</h2>
