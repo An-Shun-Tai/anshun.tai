@@ -3,16 +3,18 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+redirect_from:
+  - /resume
 ---
-test
-{% include base_path %}
 
 <h2>Curriculum Vitae</h2>
 
 <p>You can view or download my CV using the link below:</p>
-<p><a href="/files/CV (AnShun).pdf" target="_blank">Download my CV (PDF)</a></p>
+<ul>
+  <li><a href="/files/CV (AnShun).pdf" target="_blank">Download CV (PDF)</a></li>
+</ul>
 
-<h3>Alternatively, you can view it below:</h3>
-<embed src="/files/CV (AnShun).pdf" type="application/pdf" width="100%" height="600px" />
+<h3>Preview of CV:</h3>
+<iframe src="/files/CV (AnShun).pdf" style="width: 100%; height: 600px;" frameborder="0"></iframe>
 
 
