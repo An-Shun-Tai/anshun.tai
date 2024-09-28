@@ -17,6 +17,7 @@ I received my Ph.D. in Statistics at National Tsing Hua University in 2019. My c
     I recently focused on the statistical model development for mediator analysis with multiple mediators  and  instrumental variable method (Mendelian Randomization).  
 
 I would welcome any email for an academic discussion.
+email address: ashtai@gs.ncku.edu.tw
 
 Research Interests
 ------
