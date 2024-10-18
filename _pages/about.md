@@ -61,16 +61,4 @@ redirect_from:
     text-transform: uppercase; /* Uppercase for the lab name */
   }
 
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .banner h1 {
-      font-size: 2.5em; /* Smaller font size on tablets */
-    }
-  }
-
-  @media (max-width: 480px) {
-    .banner h1 {
-      font-size: 2em; /* Even smaller font size on mobile */
-    }
-  }
 </style>
