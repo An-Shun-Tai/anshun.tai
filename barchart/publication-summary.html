@@ -10,16 +10,44 @@
   .chart-container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    max-width: 600px;
-    height: 300px;
+    width: 100%; /* Use full available width */
+    max-width: 600px; /* Optional maximum width */
+    margin: 0 auto; /* Center the container */
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    gap: 20px; /* Space between items */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    padding: 10px; /* Optional padding */
   }
   
   .chart-container canvas {
-    width: calc(33% - 10px); /* Adjust the width as needed */
-    margin-right: 0; /* Adjust the margin as needed */
-    height: 100%;
+    flex: 1 1 calc(33.333% - 10px); /* Flexible width with space accounted for */
+    /* Explanation:
+       - `flex: grow shrink basis`
+       - `1 1 calc(33.333% - 40px)` means:
+         - grow: 1 (can grow if needed)
+         - shrink: 1 (can shrink if needed)
+         - basis: 33.333% minus total gaps (e.g., 40px total for margins)
+    */
+    /*max-width: 400px; /* Optional maximum width for each chart */
+    height: 400px; /* Set a fixed height or adjust as needed */
+  }
+
+  /* Remove margin from the last canvas in a row */
+  .chart-container canvas:last-child {
+    margin-right: 0;
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 900px) {
+    .chart-container canvas {
+      flex: 1 1 calc(50% - 30px); /* Two charts per row */
+    }
+  }
+
+  @media (max-width: 600px) {
+    .chart-container canvas {
+      flex: 1 1 100%; /* One chart per row */
+    }
   }
 </style>
 
