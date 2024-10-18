@@ -5,6 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
+<iframe src="/barchart/publication-summary.html" height="300" width="850" style="border:none;"></iframe>
+
+
 (A) Major work
 -----
   * Published or In press​:

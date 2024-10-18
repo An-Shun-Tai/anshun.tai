@@ -1,0 +1,153 @@
+<div class="chart-container">
+  <canvas id="chart1"></canvas>
+  <canvas id="chart2"></canvas>
+  <canvas id="chart3"></canvas>
+  <canvas id="chart4"></canvas>
+</div>
+
+<style>
+  .chart-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+  }
+  
+  .chart-container canvas {
+    width: calc(33% - 10px); /* Adjust the width as needed */
+    margin-right: 30px; /* Adjust the margin as needed */
+  }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+  var ctx1 = document.getElementById('chart1').getContext('2d');
+  var chart1 = new Chart(ctx1, {
+      type: 'bar',
+      data: {
+        labels: ['JASA', ['Statistica', 'Sinica'], 'AIAA', 'JUQ', 'Technometrics', 'AoAS', 'JRSSC', 'JQT'],
+        datasets: [{
+          data: [4, 3, 3, 2, 2, 1, 1, 1],
+          backgroundColor: 'rgba(255, 99, 132, 0.2)',
+          borderColor: 'rgba(255, 99, 132, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          x: {
+              ticks: {
+                maxRotation: 90,
+                minRotation: 90
+              }
+            },
+          y: {
+            beginAtZero: true
+          }
+        },
+        plugins: {
+                title: {
+                  display: true,
+                  text: 'Journal Publications',
+                  padding: {
+                    top: 10,
+                    bottom: 10
+                  },
+                  font: {
+                              size: 18 // Adjust the font size as needed
+                            }
+                },
+                legend: {
+                      display: false
+                    }
+              }
+      }
+  });
+  
+  var ctx2 = document.getElementById('chart2').getContext('2d');
+  var chart2 = new Chart(ctx2, {
+      type: 'bar',
+      data: {
+        labels: ['First', 'Second', 'Third', 'Fourth', 'Sixth'],
+        datasets: [{
+          data: [12, 3, 2, 1, 1],
+          backgroundColor: 'rgba(75, 192, 192, 0.2)',
+          borderColor: 'rgba(75, 192, 192, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          x: {
+              ticks: {
+                maxRotation: 90,
+                minRotation: 90
+              }
+            },
+          y: {
+            beginAtZero: true
+          }
+        },
+        plugins: {
+                title: {
+                  display: true,
+                  text: 'Authorship',
+                  padding: {
+                    top: 10,
+                    bottom: 10
+                  },
+                  font: {
+                              size: 18 // Adjust the font size as needed
+                            }
+                },
+                legend: {
+                      display: false
+                    }
+              }
+      }
+  });
+    var ctx3 = document.getElementById('chart3').getContext('2d');
+    var chart3 = new Chart(ctx3, {
+        type: 'line',
+        data: {
+          labels: ['2018', '2019', '2020', '2021', '2022', '2023', '2024+'],
+          datasets: [{
+            data: [3, 1, 3, 0, 2, 2, 8],
+            backgroundColor: 'rgba(192, 75, 192, 0.2)',
+            borderColor: 'rgba(192, 75, 192, 1)',
+            pointStyle: 'circle',
+            pointRadius: 10,
+            pointHoverRadius: 15
+          }]
+        },
+        options: {
+          scales: {
+            x: {
+                ticks: {
+                  maxRotation: 90,
+                  minRotation: 90
+                }
+              },
+            y: {
+              beginAtZero: true
+            }
+          },
+          plugins: {
+                  title: {
+                    display: true,
+                    text: 'Publication Year',
+                    padding: {
+                      top: 10,
+                      bottom: 10
+                    },
+                    font: {
+                                size: 18 // Adjust the font size as needed
+                              }
+                  },
+                  legend: {
+                        display: false
+                      }
+                }
+        }
+    });
+</script>
