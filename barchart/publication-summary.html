@@ -9,15 +9,13 @@
 <style>
   .chart-container {
     display: flex;
-    flex-direction: column; /* Stack the charts vertically */
-    justify-content: center;
-    align-items: center;
-    width: 300px; /* Adjust width as needed */
+    justify-content: space-between;
+    width: 800px;
   }
   
   .chart-container canvas {
-    width: 100%; /* Ensure the charts take the full width */
-    margin-bottom: 10px; /* Add spacing between the charts */
+    width: calc(33% - 10px); /* Adjust the width as needed */
+    margin-right: 30px; /* Adjust the margin as needed */
   }
 </style>
 
