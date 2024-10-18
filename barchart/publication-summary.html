@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%; /* Use full available width */
-    max-width: 600px; /* Optional maximum width */
+    max-width: 800px; /* Optional maximum width */
     margin: 0 auto; /* Center the container */
     flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
     gap: 20px; /* Space between items */
@@ -29,12 +29,13 @@
          - basis: 33.333% minus total gaps (e.g., 40px total for margins)
     */
     /*max-width: 400px; /* Optional maximum width for each chart */
-    height: 400px; /* Set a fixed height or adjust as needed */
+    height: 500px; /* Set a fixed height or adjust as needed */
   }
 
   /* Remove margin from the last canvas in a row */
   .chart-container canvas:last-child {
     margin-right: 0;
+    margin-bottom: 0;
   }
 
   /* Responsive Adjustments */
