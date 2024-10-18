@@ -46,7 +46,10 @@ redirect_from:
     background-color: #2c3e50; /* Dark blue background */
     color: #ffffff; /* White text */
     padding: 60px 20px; /* Padding for the banner */
-    text-align: center; /* Center align the text */
+    display: flex; /* Use flexbox to center the content */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    text-align: center; /* Center text in the banner */
     width: 100%; /* Full width of the page */
     box-sizing: border-box; /* Ensure padding is included in width */
     margin-bottom: 40px; /* Add space below the banner */
