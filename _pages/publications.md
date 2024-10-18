@@ -5,7 +5,33 @@ permalink: /publications/
 author_profile: true
 ---
 
-<iframe src="https://an-shun-tai.github.io/anshun.tai/barchart/publication-summary.html" height="500" width="850" style="border:none;"></iframe>
+# responsive-iframe-wrapper css
+<style>
+  .responsive-iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .responsive-iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+</style>
+
+
+<div class="responsive-iframe-wrapper">
+  <iframe 
+    src="https://an-shun-tai.github.io/anshun.tai/barchart/publication-summary.html" 
+    allowfullscreen
+  ></iframe>
+</div>
 
 
 (A) Major work
