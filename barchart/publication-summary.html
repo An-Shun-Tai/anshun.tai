@@ -9,15 +9,20 @@
 <style>
   .chart-container {
     display: flex;
-    flex-direction: column; /* Stack the charts vertically */
-    justify-content: center;
-    align-items: center;
-    width: 600px; /* Adjust width as needed */
+    flex-direction: column; /* Arrange charts vertically */
+    align-items: center;    /* Center align charts */
+    width: 100%;            /* Full width */
+    max-width: 1200px;      /* Maximum width */
+    margin: 0 auto;         /* Center the container */
+    padding: 20px;          /* Optional padding */
+    box-sizing: border-box; /* Include padding in width */
   }
   
   .chart-container canvas {
-    width: 100%; /* Ensure the charts take the full width */
-    margin-bottom: 30px; /* Add spacing between the charts */
+    width: 100%;            /* Full width of the container */
+    max-width: 1000px;      /* Optional max width for better readability */
+    height: 400px;          /* Set a fixed height */
+    margin-bottom: 40px;    /* Space between charts */
   }
 </style>
 
@@ -38,6 +43,7 @@
         }]
       },
       options: {
+        maintainAspectRatio: false, // Allows the chart to adjust based on container size
         scales: {
           x: {
               ticks: {
@@ -82,6 +88,7 @@
         }]
       },
       options: {
+        maintainAspectRatio: false, // Allows the chart to adjust based on container size
         scales: {
           x: {
               ticks: {
@@ -126,6 +133,7 @@
           }]
         },
         options: {
+          maintainAspectRatio: false, // Allows the chart to adjust based on container size
           scales: {
             x: {
                 ticks: {
