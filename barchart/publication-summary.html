@@ -5,18 +5,22 @@
   <canvas id="chart4"></canvas>
 </div>
 
+
 <style>
   .chart-container {
     display: flex;
-    justify-content: space-between;
-    width: 1200px;
+    flex-direction: column; /* Stack the charts vertically */
+    justify-content: center;
+    align-items: center;
+    width: 600px; /* Adjust width as needed */
   }
   
   .chart-container canvas {
-    width: calc(33% - 10px); /* Adjust the width as needed */
-    margin-right: 30px; /* Adjust the margin as needed */
+    width: 100%; /* Ensure the charts take the full width */
+    margin-bottom: 30px; /* Add spacing between the charts */
   }
 </style>
+
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
