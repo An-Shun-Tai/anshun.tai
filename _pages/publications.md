@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<iframe src="https://an-shun-tai.github.io/anshun.tai/barchart/publication-summary.html" height="300" width="850" style="border:none;"></iframe>
+<iframe src="https://an-shun-tai.github.io/anshun.tai/barchart/publication-summary.html" height="500" width="850" style="border:none;"></iframe>
 
 
 (A) Major work
