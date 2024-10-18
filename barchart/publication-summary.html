@@ -12,11 +12,12 @@
     justify-content: space-between;
     width: 100%; /* Use full available width */
     max-width: 800px; /* Optional maximum width */
+    max-width: 800px;
     margin: 0 auto; /* Center the container */
     flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
-    gap: 20px; /* Space between items */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
-    padding: 10px; /* Optional padding */
+    gap: 10px; /* Space between items */
+    /*box-sizing: border-box; /* Include padding and border in element's total width and height */
+    /*padding: 10px; /* Optional padding */
   }
   
   .chart-container canvas {
@@ -38,14 +39,7 @@
     margin-bottom: 0;
   }
 
-  /* Responsive Adjustments */
-  @media (max-width: 900px) {
-    .chart-container canvas {
-      flex: 1 1 calc(50% - 30px); /* Two charts per row */
-    }
-  }
-
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     .chart-container canvas {
       flex: 1 1 100%; /* One chart per row */
     }
