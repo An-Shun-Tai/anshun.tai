@@ -10,19 +10,19 @@
   .chart-container {
     display: flex;
     justify-content: space-between;
-    width: 100%; /* Use full available width */
-    height: 100%;
+    /*width: 100%; /* Use full available width */
+    /*height: 100%;
     /*max-width: 850px; /* Optional maximum width */
     /*max-height: 800px;*/
-    margin: 0 auto; /* Center the container */
-    /*flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    /*margin: 0 auto; /* Center the container */
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
     /*gap: 10px; /* Space between items */
     /*box-sizing: border-box; /* Include padding and border in element's total width and height */
     /*padding: 10px; /* Optional padding */
   }
   
   .chart-container canvas {
-    flex: 1 1 calc(33.333% - 10px); /* Flexible width with space accounted for */
+    /*flex: 1 1 calc(33.333% - 10px); /* Flexible width with space accounted for */
     /* Explanation:
        - `flex: grow shrink basis`
        - `1 1 calc(33.333% - 40px)` means:
@@ -32,13 +32,8 @@
     */
     /*max-width: 400px; /* Optional maximum width for each chart */
     /*max-height: 500px; /* Set a fixed height or adjust as needed */
+    flex: 1 1 33.333%;
     max-height: 700px;
-  }
-
-  /* Remove margin from the last canvas in a row */
-  .chart-container canvas:last-child {
-    margin-right: 0;
-    margin-bottom: 0;
   }
 
 </style>
