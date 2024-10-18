@@ -37,6 +37,7 @@ redirect_from:
 <!-- News Section -->
 <h2>NEWS</h2>
 <!-- Add news here -->
+2024/06/24 BO-HAN YAO (姚博瀚) (Dept.STAT, Second Year Undergraduate) 通過113年度國科會大專學生研究計劃（「因果中介模型應用於抽菸引導的老化加速機制」）
 
 
 <!-- Custom CSS for the Banner -->
@@ -45,7 +46,7 @@ redirect_from:
   .banner {
     background-color: #2c3e50; /* Dark blue background */
     color: #ffffff; /* White text */
-    padding: 60px 20px; /* Padding for the banner */
+    padding: 20px 20px; /* Padding for the banner */
     display: flex; /* Use flexbox to center the content */
     justify-content: center; /* Center the content horizontally */
     align-items: center; /* Center the content vertically */
@@ -57,7 +58,7 @@ redirect_from:
 
   /* Styling the Banner Heading */
   .banner h1 {
-    font-size: clamp(1.5em, 4vw, 3.5em); /* Adaptive font size between 1.5em and 4em */
+    font-size: clamp(1.5em, 4vw, 3em); /* Adaptive font size between 1.5em and 3em */
     margin: 0; /* No extra margin around the heading */
     font-family: 'Arial', sans-serif; /* Clean font */
     letter-spacing: 2px; /* Spacing between letters */
