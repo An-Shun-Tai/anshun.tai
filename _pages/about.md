@@ -57,7 +57,7 @@ redirect_from:
 
   /* Styling the Banner Heading */
   .banner h1 {
-    font-size: clamp(1.5em, 4vw, 4em); /* Adaptive font size between 1.5em and 4em */
+    font-size: clamp(1.5em, 4vw, 3.5em); /* Adaptive font size between 1.5em and 4em */
     margin: 0; /* No extra margin around the heading */
     font-family: 'Arial', sans-serif; /* Clean font */
     letter-spacing: 2px; /* Spacing between letters */
