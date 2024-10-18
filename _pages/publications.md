@@ -7,32 +7,14 @@ author_profile: true
 
 Publication Summary:
 -----
-<style>
-  .responsive-iframe-wrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-  }
-
-  .responsive-iframe-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
-</style>
-
-
-<div class="responsive-iframe-wrapper">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; width: 100%; max-width: 100%; margin: 0 auto;">
   <iframe 
     src="https://an-shun-tai.github.io/anshun.tai/barchart/publication-summary.html" 
-    allowfullscreen
-  ></iframe>
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; margin: 0; padding: 0;" 
+    allowfullscreen>
+  </iframe>
 </div>
+
 
 
 (A) Major work
