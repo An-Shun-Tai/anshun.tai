@@ -5,7 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-# responsive-iframe-wrapper css
+Publication Summary:
+-----
 <style>
   .responsive-iframe-wrapper {
     position: relative;
