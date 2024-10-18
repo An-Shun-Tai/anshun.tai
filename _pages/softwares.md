@@ -5,7 +5,7 @@ permalink: /softwares/
 author_profile: true
 ---
 
-(A) Major work
+R packges:
 -----
   * Published or In press​:
     1. **An-Shun Tai** and Sheng-Hsuan Lin* (2024+). Multiply robust estimation of natural indirect effects with multiple ordered mediators. **Statistics in Medicine**. [R code](https://github.com/AshTai/MedMR)
