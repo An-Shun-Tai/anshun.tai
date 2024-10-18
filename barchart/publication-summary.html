@@ -9,20 +9,15 @@
 <style>
   .chart-container {
     display: flex;
-    flex-direction: column; /* Arrange charts vertically */
-    align-items: center;    /* Center align charts */
-    width: 100%;            /* Full width */
-    max-width: 600px;      /* Maximum width */
-    margin: 0 auto;         /* Center the container */
-    padding: 20px;          /* Optional padding */
-    box-sizing: border-box; /* Include padding in width */
+    flex-direction: column; /* Stack the charts vertically */
+    justify-content: center;
+    align-items: center;
+    width: 600px; /* Adjust width as needed */
   }
   
   .chart-container canvas {
-    width: 100%;            /* Full width of the container */
-    max-width: 600px;      /* Optional max width for better readability */
-    height: 500px;          /* Set a fixed height */
-    margin-bottom: 40px;    /* Space between charts */
+    width: calc(33% - 10px); /* Ensure the charts take the full width */
+    margin-bottom: 30px; /* Add spacing between the charts */
   }
 </style>
 
