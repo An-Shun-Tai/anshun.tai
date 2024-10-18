@@ -22,7 +22,7 @@
   }
   
   .chart-container canvas {
-    flex: 1 1 calc(33.333% - 10px); /* Flexible width with space accounted for */
+    /*flex: 1 1 calc(33.333% - 10px); /* Flexible width with space accounted for */
     /* Explanation:
        - `flex: grow shrink basis`
        - `1 1 calc(33.333% - 40px)` means:
@@ -32,6 +32,7 @@
     */
     /*max-width: 400px; /* Optional maximum width for each chart */
     /*max-height: 500px; /* Set a fixed height or adjust as needed */
+    flex: calc(33.333% - 10px);
   }
 
   /* Remove margin from the last canvas in a row */
